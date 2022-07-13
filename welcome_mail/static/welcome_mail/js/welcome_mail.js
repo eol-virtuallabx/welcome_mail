@@ -77,6 +77,12 @@ function save_welcome_mail(e){
           if(response.result == 'success'){
             $('#request-response')[0].innerHTML = 'Correo guardado Correctamente';
             $('#request-response').show();
+            let new_data = {
+              'is_active': is_active,
+              'message': welcome_message,
+              'subject': welcome_subject,
+            }
+            $('#welcome_mail_data')[0].value = JSON.stringify(new_data)
           }
           else{
             $('#request-response-error')[0].innerHTML = "Error inesperado ha ocurrido. Actualice la página e intente nuevamente";
