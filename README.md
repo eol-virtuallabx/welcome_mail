@@ -1,6 +1,6 @@
 # Welcome Mail
 
-![https://github.com/eol-uchile/eol_welcome_mail/actions](https://github.com/eol-uchile/eol_welcome_mail/workflows/Python%20application/badge.svg)
+![https://github.com/eol-virtuallabx/welcome_mail/actions](https://github.com/eol-virtuallabx/welcome_mail/workflows/Python%20application/badge.svg)
 
 Send email to student when they enroll in the course
 
